@@ -1,7 +1,9 @@
-import { Header } from "@/partials/Header";
 import styles from './style.module.scss'
+
+import { Header } from "@/partials/Header";
 import { Navbar } from "@/partials/Navbar";
-import About from "@/partials/About";
+import { About } from "@/partials/About";
+import { Services } from '@/partials/Services';
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
+      <Services />
 
     </main>
   )

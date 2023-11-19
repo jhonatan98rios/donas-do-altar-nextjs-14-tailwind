@@ -1,4 +1,4 @@
-export default function About() {
+export function About() {
   return (
     <section className="flex flex-col text-center justify-center items-center bg-white">
       <div className="w-2/4 py-24">
