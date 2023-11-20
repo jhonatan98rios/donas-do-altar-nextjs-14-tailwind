@@ -6,7 +6,17 @@ type CarouselProps = {
 }
 
 const flickityOptions = {
-  initialIndex: 1,
+  pageDots: true,
+  prevNextButtons: true,
+  initialIndex: 0,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        initialIndex: 1,
+      }
+    }
+  ]
 }
 
 export function Carousel({ children }: CarouselProps) {
@@ -17,10 +27,9 @@ export function Carousel({ children }: CarouselProps) {
       elementType={'div'} // default 'div'
       options={flickityOptions} // takes flickity options {}
       disableImagesLoaded={false} // default false
-      reloadOnUpdate // default false
       static // default false
     >
-      { children }
+      {children}
     </Flickity>
   )
 }

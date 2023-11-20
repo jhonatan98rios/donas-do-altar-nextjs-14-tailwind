@@ -9,7 +9,7 @@ export function Services() {
         NOSSOS SERVIÇOS 
       </h3>
 
-      <div className="h-[42rem] w-4/5 mx-auto">
+      <div className="h-[34rem] sm:h-[42rem] w-full sm:w-4/5 mx-auto">
         <Carousel>
           <ServiceCard />
           <ServiceCard />

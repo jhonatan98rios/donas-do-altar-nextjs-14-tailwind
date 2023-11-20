@@ -1,7 +1,7 @@
 export function Social() {
   return (
-    <div className="flex flex-col items-center w-full h-34 py-12 bg-white">
-      <p className="text-xl text-gray-500 mb-6">
+    <div className="flex flex-col items-center w-11/12 h-34 py-12 bg-white mx-auto">
+      <p className="text-xl text-gray-500 mb-6 text-center">
         Ou entre em contato por nossas redes sociais
       </p>
 
