@@ -1,22 +1,17 @@
-import Flickity from 'react-flickity-component'
+'use client'
 
+import Flickity, { FlickityOptions } from 'react-flickity-component'
 
 type CarouselProps = {
   children?: React.ReactNode
 }
 
-const flickityOptions = {
+const flickityOptions: FlickityOptions = {
   pageDots: true,
   prevNextButtons: true,
-  initialIndex: 0,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        initialIndex: 1,
-      }
-    }
-  ]
+  initialIndex: (typeof window !== "undefined") && (window.innerWidth <= 768) ? 0 : 1,
+  cellAlign: 'center',
+  wrapAround: true
 }
 
 export function Carousel({ children }: CarouselProps) {
