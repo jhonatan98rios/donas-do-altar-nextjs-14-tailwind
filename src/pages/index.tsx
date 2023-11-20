@@ -12,7 +12,7 @@ import { Social } from '@/partials/Social';
 export default function Home() {
   return (
     <main
-      className={`flex flex-col font-base ${styles.static_bg}`}
+      className={`flex flex-col font-base scroll-smooth ${styles.static_bg}`}
     >
       <Navbar />
       <Header />
@@ -20,11 +20,8 @@ export default function Home() {
       <Services />
       <PhraseBanner />
       <Testimonials />
-
       <Contact />
-
       <Social />
-
     </main>
   )
 }

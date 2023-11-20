@@ -20,8 +20,8 @@ export function DropdownMenu() {
       </div>
 
       <div className={`w-full h-screen bg-gray-500 bg-opacity-50 transition-all ${ isOpen ? 'block' : 'hidden' }`} onClick={handleClick}>
-        <div className="border-gray-700 w-full">
-          <ul className="flex flex-col items-center justify-center text-sm bg-white">
+        <div className="w-full">
+          <ul className="flex flex-col items-center justify-center text-sm bg-white text-gray-500">
             <li className="py-4">
               <a href="#"> INICIO </a>
             </li>

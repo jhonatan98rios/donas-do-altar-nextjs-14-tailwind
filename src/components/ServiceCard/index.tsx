@@ -5,7 +5,7 @@ export function ServiceCard() {
 
       <img src="https://placehold.co/340x230" alt="" />
 
-      <h3 className="my-5 text-xl sm:text-2xl text-gray-400 font-bold">
+      <h3 className="my-5 text-xl sm:text-2xl text-gray-500 font-bold">
         Titulo
       </h3>
 

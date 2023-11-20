@@ -1,6 +1,7 @@
 // @ts-nocheck
 
 import { DropdownMenu } from "@/components/DropdownMenu"
+import Link from "next/link"
 
 export const Navbar = () => {
   return (
@@ -12,22 +13,22 @@ export const Navbar = () => {
       </div>
 
       {/* Desktop and tablet menu */}
-      <div className="border-gray-700 border-solid border-b w-11/12 lg:w-8/12 hidden sm:block">
-        <ul className="flex items-center justify-center text-sm pb-4">
+      <div className="border-gray-500 border-solid border-b w-11/12 lg:w-8/12 hidden sm:block">
+        <ul className="flex items-center justify-center text-sm pb-4 text-gray-500">
           <li className="mx-2">
-            <a href="#"> INICIO </a>
+            <Link href="/#"> INICIO </Link>
           </li>
           <li className="mx-2">
-            <a href="#"> SOBRE NÓS </a>
+            <Link href="/#sobre"> SOBRE NÓS </Link>
           </li>
           <li className="mx-2">
-            <a href="#"> NOSSOS SERVIÇOS </a>
+            <Link href="/#servicos"> NOSSOS SERVIÇOS </Link>
           </li>
           <li className="mx-2">
-            <a href="#"> DEPOIMENTOS </a>
+            <Link href="/#depoimentos"> DEPOIMENTOS </Link>
           </li>
           <li className="mx-2">
-            <a href="#"> CONTATO </a>
+            <Link href="/#contato"> CONTATO </Link>
           </li>
         </ul>
       </div>

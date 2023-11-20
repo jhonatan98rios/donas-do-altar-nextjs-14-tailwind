@@ -1,6 +1,6 @@
 export function Contact() {
   return (
-    <div className="flex w-full lg:h-[22rem] bg-white py-12">
+    <section className="flex w-full lg:h-[22rem] bg-white py-12" id="contato">
       <div className="lg:columns-2 gap-0 mx-auto">
         
         <div className="lg:pr-16 lg:border-r border-gray-400">
@@ -24,6 +24,6 @@ export function Contact() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
