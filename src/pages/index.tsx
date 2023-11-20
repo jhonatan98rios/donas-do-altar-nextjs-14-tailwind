@@ -6,6 +6,7 @@ import { About } from "@/partials/About";
 import { Services } from '@/partials/Services';
 import { PhraseBanner } from '@/partials/PhraseBanner';
 import { Testimonials } from '@/partials/Testimonials';
+import { Contact } from '@/partials/Contact';
 
 export default function Home() {
   return (
@@ -17,8 +18,9 @@ export default function Home() {
       <About />
       <Services />
       <PhraseBanner />
-
       <Testimonials />
+
+      <Contact />
 
     </main>
   )
