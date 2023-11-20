@@ -11,9 +11,11 @@
     "coverage": "jest --coverage"
   },
   "dependencies": {
+    "flickity": "^2.3.0",
     "next": "14.0.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-flickity-component": "^4.0.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",

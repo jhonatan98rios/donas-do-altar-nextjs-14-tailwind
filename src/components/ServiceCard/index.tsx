@@ -1,0 +1,18 @@
+export function ServiceCard() {
+
+  return (
+    <article className="w-96 h-[38rem] bg-white flex flex-col p-4 mx-4 border border-solid border-gray-400">
+
+      <img src="https://placehold.co/340x230" alt="" />
+
+      <h3 className="my-5 text-2xl text-gray-400 font-bold">
+        Titulo
+      </h3>
+
+      <p className="text-xl text-gray-500">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </article>
+  )
+}
