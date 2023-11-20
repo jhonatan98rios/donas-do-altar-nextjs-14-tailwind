@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import { JsonLd } from './jsonld'
 
 const HeadComponent = () => (
@@ -28,13 +29,13 @@ const HeadComponent = () => (
       content="https://example.com/images/cool-page.jpg"
     />
 
-    <script
+    <Script
       type="application/ld+json"
       dangerouslySetInnerHTML={JsonLd()}
       key="product-jsonld"
     />
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com" />
   </Head>
 )
 
