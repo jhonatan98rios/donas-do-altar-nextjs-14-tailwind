@@ -7,6 +7,7 @@ import { Services } from '@/partials/Services';
 import { PhraseBanner } from '@/partials/PhraseBanner';
 import { Testimonials } from '@/partials/Testimonials';
 import { Contact } from '@/partials/Contact';
+import { Social } from '@/partials/Social';
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
       <Testimonials />
 
       <Contact />
+
+      <Social />
 
     </main>
   )
