@@ -6,7 +6,7 @@ export function TestimonialCard() {
       <div className="flex justify-center items-center mb-8">
         <img src="https://placehold.co/56x56" alt="" className="rounded-full" />
         <div className="text-left ml-5 text-gray-500">
-          <p className="text-2xl"> Nome </p>
+          <p className="text-xl sm:text-2xl"> Nome </p>
           <p className="text-sm"> 19 de dezembro de 2022 </p>
         </div>
       </div>
