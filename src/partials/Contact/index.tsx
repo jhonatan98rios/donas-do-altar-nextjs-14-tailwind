@@ -11,7 +11,7 @@ export function Contact() {
           <p className="text-lg lg:text-xl text-gray-500"> Entre em contato pelo Whatsapp </p>
 
           <div className="flex mt-2 mb-6 lg:w-full">
-            <img src="https://placehold.co/24x24" alt="" className="mr-4" />
+            <img src="./icons/whatsapp-small.png" alt="icon do Whatsapp" className="mr-4" />
             <p className="text-3xl text-gray-700 font-bold"> 11 972879578 </p>
           </div>
 

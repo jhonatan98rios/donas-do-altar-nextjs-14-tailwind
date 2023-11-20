@@ -5,11 +5,11 @@ export function Social() {
         Ou entre em contato por nossas redes sociais
       </p>
 
-      <div className="flex">
-        <img src="https://placehold.co/48x48" alt="" className="mx-4" />
-        <img src="https://placehold.co/48x48" alt="" className="mx-4" />
-        <img src="https://placehold.co/48x48" alt="" className="mx-4" />
-        <img src="https://placehold.co/48x48" alt="" className="mx-4" />
+      <div className="flex items-center">
+        <img src="./icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
+        <img src="./icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
+        <img src="./icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
+        <img src="./icons/zankyou.png" alt="logo do Zankyou" className="mx-4 h-fit" />
       </div>
     </div>
   )
