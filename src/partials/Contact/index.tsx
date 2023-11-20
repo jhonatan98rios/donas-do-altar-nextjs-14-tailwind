@@ -1,6 +1,6 @@
 export function Contact() {
   return (
-    <div className="flex w-full h-96 bg-white py-12">
+    <div className="flex w-full h-[22rem] bg-white py-12">
       <div className="columns-2 gap-0 mx-auto">
         
         <div className="pr-16 border-r border-gray-400">
