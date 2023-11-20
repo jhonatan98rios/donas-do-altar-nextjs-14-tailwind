@@ -4,30 +4,50 @@ import { JsonLd } from './jsonld'
 
 const HeadComponent = () => (
   <Head>
-    <title> Title </title>
-    <meta name="description" content="Meta description" />
+    <title> Donas do Altar - Assessoria & Cerimonial </title>
+
+    <meta 
+      name="description" 
+      content="Assessoria e Cerimonial irá desenvolver todo o programa para eternizar este dia tão especial. Para isso, contam com uma equipe de profissionais apaixonadas pelo trabalho e atendem a seus clientes de forma personalizada. Tudo que vocês sempre sonharam para este dia será transformado em realidade." 
+    />
+
+    <meta 
+      name="keywords" 
+      content="casamento, assessoria. cerimonial, matrimonial, eventos, festas, celebração" 
+    />
     
     <link
       rel="icon"
-      href="https://cdn-icons-png.flaticon.com/128/6610/6610237.png"
+      href="./favicon/favicon.ico"
       type="image/ico"
     />
 
     <link
       rel="apple-touch-icon"
-      href="https://cdn-icons-png.flaticon.com/128/6610/6610237.png"
-      type="image/ico"
+      href="./favicon/apple-touch-icon.png"
+      type="image/png"
     />
 
-    <meta property="og:title" content="Social Title for Cool Page" />
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0" 
+    />
+
+    <meta 
+      property="og:title" 
+      content="Donas do Altar - Assessoria & Cerimonial" 
+    />
+
     <meta
       property="og:description"
-      content="And a social description for our cool page"
+      content="Assessoria e Cerimonial irá desenvolver todo o programa para eternizar este dia tão especial. Para isso, contam com uma equipe de profissionais apaixonadas pelo trabalho e atendem a seus clientes de forma personalizada. Tudo que vocês sempre sonharam para este dia será transformado em realidade."
     />
     <meta
       property="og:image"
-      content="https://example.com/images/cool-page.jpg"
+      content="./favicon/favicon-32x32.png"
     />
+
+    <link rel="manifest" href="./favicon/site.webmanifest" />
 
     <Script
       type="application/ld+json"
