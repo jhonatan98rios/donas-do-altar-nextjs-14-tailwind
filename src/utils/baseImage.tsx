@@ -1,5 +1,15 @@
-export const baseImage = (src: any[], alt: any, title: any) => ({ src, alt, title })
+export const baseImage = (src: Source[], alt: any, title: any): BaseImage => ({ src, alt, title })
 
+export type BaseImage = { 
+  src: Source[], 
+  alt: string, 
+  title: string
+}
+
+export type Source = {
+  src: string
+  query?: string
+}
 
 /* 
 Exemplo

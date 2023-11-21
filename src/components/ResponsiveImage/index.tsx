@@ -1,7 +1,4 @@
-type Source = {
-  src: string
-  query?: string
-}
+import { Source } from "@/utils/baseImage"
 
 type ResponsiveImageprops = {
   sources: Array<Source>
@@ -16,23 +13,23 @@ export function ResponsiveImage({ sources, alt, title, className, lazyload = tru
   return (
     <picture className={className}>
       {sources.map((source, index) => (
-        <>
-          <source
-            data-srcset={lazyload ? source.src : null}
-            srcSet={lazyload ? undefined : source.src}
-            media={source.query}
-            key={index}
-          />
-
-          <img
-            className=""
-            src={sources[0].src.split(',')[0]}
-            srcSet={sources[0].src}
-            alt={alt}
-            title={title}
-          />
-        </>
+        <source
+          data-srcset={lazyload ? source.src : null}
+          srcSet={lazyload ? undefined : source.src}
+          media={source.query}
+          key={index}
+        />
       ))}
+
+      <img
+        className=""
+        src={sources[0].src.split(',')[0]}
+        srcSet={sources[0].src}
+        alt={alt}
+        title={title}
+        loading={lazyload ? 'lazy' : 'eager'}
+      />
+
     </picture>
   )
 }

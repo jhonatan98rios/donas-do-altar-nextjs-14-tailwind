@@ -11,7 +11,6 @@ const flickityOptions: FlickityOptions = {
   prevNextButtons: true,
   initialIndex: (typeof window !== "undefined") && (window.innerWidth <= 768) ? 0 : 1,
   cellAlign: 'center',
-  wrapAround: true
 }
 
 export function Carousel({ children }: CarouselProps) {
