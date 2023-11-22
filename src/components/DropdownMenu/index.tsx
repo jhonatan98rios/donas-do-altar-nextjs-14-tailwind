@@ -22,20 +22,20 @@ export function DropdownMenu() {
       <div className={`w-full h-screen bg-gray-500 bg-opacity-50 transition-all ${ isOpen ? 'block' : 'hidden' }`} onClick={handleClick}>
         <div className="w-full">
           <ul className="flex flex-col items-center justify-center text-sm bg-white text-gray-500">
-            <li className="py-4">
-              <a href="#"> INICIO </a>
+            <li className="w-full text-center">
+              <a className="py-4 w-full block" href="#"> INICIO </a>
             </li>
-            <li className="py-4">
-              <a href="#"> SOBRE NÓS </a>
+            <li className="w-full text-center">
+              <a className="py-4 w-full block" href="#sobre"> SOBRE NÓS </a>
             </li>
-            <li className="py-4">
-              <a href="#"> NOSSOS SERVIÇOS </a>
+            <li className="w-full text-center">
+              <a className="py-4 w-full block" href="#servicos"> NOSSOS SERVIÇOS </a>
             </li>
-            <li className="py-4">
-              <a href="#"> DEPOIMENTOS </a>
+            <li className="w-full text-center">
+              <a className="py-4 w-full block" href="#depoimentos"> DEPOIMENTOS </a>
             </li>
-            <li className="py-4">
-              <a href="#"> CONTATO </a>
+            <li className="w-full text-center">
+              <a className="py-4 w-full block" href="#contato"> CONTATO </a>
             </li>
           </ul>
         </div>
