@@ -54,8 +54,7 @@ const HeadComponent = () => (
       dangerouslySetInnerHTML={JsonLd()}
       key="product-jsonld"
     />
-
-    <script src="https://cdn.tailwindcss.com" />
+    
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
   </Head>
 )
