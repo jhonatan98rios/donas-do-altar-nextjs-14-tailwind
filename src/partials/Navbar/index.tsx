@@ -9,6 +9,7 @@ export const Navbar = () => {
       <div className="flex items-center justify-center mb-8">
         <div className="w-24 sm:w-48 h-10 sm:h-20">
           <img src="./logo-192.png" alt="logo da Donas do Altar" />
+          <h1 className="hidden"> Donas do Altar </h1>
         </div>
       </div>
 

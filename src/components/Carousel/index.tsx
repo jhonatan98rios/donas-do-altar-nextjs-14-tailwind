@@ -23,7 +23,7 @@ export function Carousel({ children, flickityOptions }: CarouselProps) {
 
   return (
     <Flickity
-      className={'carousel overflow-hidden'} // default ''
+      className={'flickity-carousel overflow-hidden outline-none'} // default ''
       elementType={'div'} // default 'div'
       options={mergedFlickityOptions} // takes flickity options {}
       disableImagesLoaded={false} // default false

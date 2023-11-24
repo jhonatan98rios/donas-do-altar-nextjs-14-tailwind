@@ -4,12 +4,12 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 export function Testimonials() {
 
   return (
-    <section className="w-full h-[37rem] sm:h-[34rem] text-center py-10 bg-white" id="depoimentos">
-      <h3 className="text-xl sm:text-2xl text-gray-500 mb-8"> 
-        DEPOIMENTOS 
+    <section className="w-full h-[37rem] text-center py-10 sm:py-12 bg-pink-50" id="depoimentos">
+      <h3 className="text-xl sm:text-2xl text-gray-500 mb-8">
+        DEPOIMENTOS
       </h3>
 
-      <div className="h-[12rem] w-full sm:w-4/5 mx-auto">
+      <div className="w-full sm:w-4/5 mx-auto">
         <Carousel>
           <TestimonialCard
             name="Bruna"
@@ -27,7 +27,7 @@ export function Testimonials() {
             name="Cinthia"
             date="15 de dezembro de 2022"
             description="Super recomendo o Donas do Altar, a Milene sem dúvidas e a melhor assessora de casamento."
-          />          
+          />
         </Carousel>
       </div>
     </section>
