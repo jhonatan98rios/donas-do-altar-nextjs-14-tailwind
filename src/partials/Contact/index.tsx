@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export function Contact() {
@@ -6,14 +7,18 @@ export function Contact() {
       <div className="lg:columns-2 gap-0 mx-auto">
         
         <div className="lg:pr-16 lg:border-r border-gray-400">
-          <img src="/contact/team.png" alt="Imagem da equipe Donas do Altar, composta por 5 mulheres e um homem, uniformizados em um salão decorado." />
+          <Image 
+            src="/contact/team.png" 
+            width={415} height={290}
+            alt="Imagem da equipe Donas do Altar, composta por 5 mulheres e um homem, uniformizados em um salão decorado."
+          />
         </div>
 
         <div className="flex flex-col justify-center my-auto h-60 lg:h-full lg:pl-16 mx-auto lg:mx-0 items-center lg:items-start">
           <p className="text-lg lg:text-xl text-gray-500"> Entre em contato pelo Whatsapp </p>
 
           <div className="flex mt-2 mb-6 lg:w-full">
-            <img src="./icons/whatsapp-small.png" alt="icone do Whatsapp" className="mr-4 h-9 w-9" />
+            <img src="/icons/whatsapp-small.png" alt="icone do Whatsapp" className="mr-4 h-9 w-9" />
             <p className="text-3xl text-gray-700 font-bold"> 11 972879578 </p>
           </div>
 

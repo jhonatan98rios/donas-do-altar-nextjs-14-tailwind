@@ -12,6 +12,7 @@ const defaultFlickityOptions: FlickityOptions = {
   prevNextButtons: true,
   initialIndex: (typeof window !== "undefined") && (window.innerWidth <= 768) ? 0 : 1,
   cellAlign: 'center',
+  lazyLoad: true
 }
 
 export function Carousel({ children, flickityOptions }: CarouselProps) {
