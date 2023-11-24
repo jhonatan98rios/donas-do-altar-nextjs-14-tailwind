@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const Navbar = () => {
   return (
-    <navbar className={`flex flex-col items-center fixed top-0 w-[calc(100%-32px)] z-10 pt-6 sm:h-52 sm:w-full bg-white sm:relative`}>
+    <navbar className={`flex flex-col items-center fixed top-0 left-0 z-10 pt-6 sm:h-52 w-full bg-white sm:relative`}>
       <div className="flex items-center justify-center mb-8">
         <div className="w-24 sm:w-48 h-10 sm:h-20">
           <img src="./logo-192.png" alt="logo da Donas do Altar" />
