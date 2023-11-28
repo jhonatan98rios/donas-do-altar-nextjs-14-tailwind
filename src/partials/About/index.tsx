@@ -4,9 +4,7 @@ export function About() {
       <div className="xl:w-2/4 md:w-3/4 w-11/12 py-10 sm:py-24">
         <h2 className="mb-8 sm:mb-12 text-xl sm:text-2xl text-gray-500"> SOBRE NÓS </h2>
         <p className="text-base sm:text-xl text-gray-700">
-          Assessoria e Cerimonial irá desenvolver todo o programa para eternizar este dia tão especial. 
-          Para isso, contam com uma equipe de profissionais apaixonadas pelo trabalho e atendem a seus clientes de forma personalizada. 
-          Tudo que vocês sempre sonharam para este dia será transformado em realidade.
+        A Donas do Altar tem como propósito realizar seus sonhos. É para isso que trabalhamos e é isso que nos move e isso fica nítido na forma como planejamos e entregamos nossos eventos reais cuidando de cada detalhe com muito carinho, sofisticação e muito profissionalismo. <br /> Nossa meta é que todos os clientes que passem por aqui tenham uma experiência inesquecível e, que possam relembrar cada momento com muito carinho. Para isso, desenvolvemos alguns métodos que permitem que o planejamento seja fácil, rápido, seguro e, por que não, divertido? O resultado final: tudo do jeitinho que vocês desejaram! 
         </p>
       </div>
     </section>
