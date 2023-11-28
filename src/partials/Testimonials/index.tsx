@@ -4,9 +4,9 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 export function Testimonials() {
 
   return (
-    <section className="w-full text-center py-10 sm:pt-12 sm:pb-16 bg-cyan-900 bg-opacity-10" id="depoimentos">
+    <section className="w-full text-center py-10 sm:pt-12 sm:pb-16 bg-[#eeeeff]" id="depoimentos">
       <h3 className="text-xl sm:text-2xl text-gray-500 mb-8">
-        DEPOIMENTOS
+        O QUE FALAM SOBRE NÓS
       </h3>
 
       <div className="w-full sm:w-4/5 mx-auto">

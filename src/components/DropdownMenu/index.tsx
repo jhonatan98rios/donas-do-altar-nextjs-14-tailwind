@@ -32,7 +32,7 @@ export function DropdownMenu() {
               <a className="py-4 w-full block" href="#servicos"> NOSSOS SERVIÇOS </a>
             </li>
             <li className="w-full text-center">
-              <a className="py-4 w-full block" href="#depoimentos"> DEPOIMENTOS </a>
+              <a className="py-4 w-full block" href="#depoimentos"> O QUE FALAM SOBRE NÓS </a>
             </li>
             <li className="w-full text-center">
               <a className="py-4 w-full block" href="#contato"> CONTATO </a>
