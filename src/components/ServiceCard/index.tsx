@@ -10,7 +10,7 @@ type ServiceCardProps = {
 export function ServiceCard({ image, alt, title, description }: ServiceCardProps) {
 
   return (
-    <article className="w-72 sm:w-96 h-[32rem] sm:h-[38rem] bg-white flex flex-col p-4 mx-2 sm:mx-4 border border-solid border-gray-400">
+    <article className="w-72 sm:w-96 h-[32rem] sm:h-[34rem] bg-white flex flex-col p-4 mx-2 sm:mx-4 border border-solid border-gray-400">
       <Image 
         src={ image } 
         alt={alt} 
@@ -23,9 +23,10 @@ export function ServiceCard({ image, alt, title, description }: ServiceCardProps
         {title}
       </h3>
 
-      <p className="text-base sm:text-xl text-gray-500">
-        {description}
-      </p>
+      <p 
+        className="text-sm sm:text-base text-gray-500" 
+        dangerouslySetInnerHTML={{ __html: description }} 
+      />
     </article>
   )
 }
