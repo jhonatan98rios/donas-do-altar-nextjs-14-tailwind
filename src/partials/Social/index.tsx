@@ -1,6 +1,6 @@
 export function Social() {
   return (
-    <section className="flex flex-col items-center w-full h-34 py-4 mx-auto bg-white" id="social">
+    <section className="flex flex-col items-center w-full h-34 pb-4 mx-auto bg-white" id="social">
       <p className="text-xl text-gray-500 mb-6 text-center">
         Ou entre em contato por nossas redes sociais
       </p>
