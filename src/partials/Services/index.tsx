@@ -14,7 +14,7 @@ export function Services() {
 
           <ServiceCard 
             image="/services/assessoria_completa.png"
-            alt="Imagem de um noivo declarando seus votos à sua noiva, no altar"
+            alt="Casal abraçados dançando"
             title="Assessoria Completa"
             description="Esta é uma opção excelente para quem busca otimizar o tempo e garantir boas negociações. <br /> A Assessoria Completa é indicada para o cliente que está iniciando o planejamento e precisam de um auxílio profissional para organizar as ideias no papel e iniciar os preparativos até o dia do evento."
           />
@@ -35,7 +35,7 @@ export function Services() {
 
           <ServiceCard 
             image="/services/curso_de_assessoria.png"
-            alt="Imagem de uma mesa de um buffet com flores e garrafas de espumante"
+            alt="Imagem de uma mulher arrumando "
             title="Curso de Assessoria"
             description="Um curso profissionalizante que foi criado com o objetivo de mudar o mercado de eventos sociais e entregar para os clientes excelência e resultado. <br /> Para quem busca ser um profissional de eventos, esse é o curso que além de te preparar para o mercado vai te capacitar para todos os desafios que é ser um empreendedor de excelência. "
           />
