@@ -10,7 +10,7 @@ export function Contact() {
           <p className="text-base lg:text-xl text-gray-500"> Entre em contato pelo Whatsapp </p>
 
           <div className="flex justify-end mt-2 mb-4 lg:mb-6 lg:w-full ">
-            <img src="/icons/whatsapp-small.png" alt="icone do Whatsapp" className="mr-4 h-9 w-9" />
+            <Image width={36} height={36} src="/icons/whatsapp-small.png" alt="icone do Whatsapp" className="mr-4 h-9 w-9" />
             <p className="text-2xl lg:text-3xl text-gray-700 font-bold"> 11 972879578 </p>
           </div>
 
@@ -29,9 +29,9 @@ export function Contact() {
           </p>
 
           <div className="flex items-center">
-            <img src="./icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
-            <img src="./icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
-            <img src="./icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
+            <Image width={48} height={48} src="./icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
+            <Image width={48} height={48} src="./icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
+            <Image width={48} height={48} src="./icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
           </div>
         </div>
       </div>
