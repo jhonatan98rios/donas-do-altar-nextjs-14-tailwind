@@ -29,9 +29,9 @@ export function Contact() {
           </p>
 
           <div className="flex items-center">
-            <Image width={48} height={48} src="./icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
-            <Image width={48} height={48} src="./icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
-            <Image width={48} height={48} src="./icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
+            <Image width={48} height={48} src="/icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
+            <Image width={48} height={48} src="/icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
+            <Image width={48} height={48} src="/icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
           </div>
         </div>
       </div>
