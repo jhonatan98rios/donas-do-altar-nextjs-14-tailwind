@@ -8,7 +8,7 @@ type CarouselProps = {
 }
 
 const defaultFlickityOptions: FlickityOptions = {
-  pageDots: true,
+  pageDots: false,
   prevNextButtons: true,
   initialIndex: (typeof window !== "undefined") && (window.innerWidth <= 768) ? 0 : 1,
   cellAlign: 'center',

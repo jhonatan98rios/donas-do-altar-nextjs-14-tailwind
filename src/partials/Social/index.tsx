@@ -9,7 +9,6 @@ export function Social() {
         <img src="./icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
         <img src="./icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
         <img src="./icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
-        <img src="./icons/zankyou.png" alt="logo do Zankyou" className="mx-4 h-fit" />
       </div>
     </section>
   )

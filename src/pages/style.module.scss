@@ -1,5 +1,9 @@
 .static_bg {
     margin: 0px;
-    padding: 16px;
+    padding: 8px;
     background-image: url(../../public/Texture.png);
+
+    @media (min-width: 768px) {
+        padding: 32px;
+    }
 }
