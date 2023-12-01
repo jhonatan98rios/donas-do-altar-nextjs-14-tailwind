@@ -14,7 +14,7 @@ export function TestimonialCard({ img="https://placehold.co/56x56", name, descri
       <div className="flex justify-center items-center mb-4">
         <Image width={56} height={56} src={img} alt={`Imagem de avatar ${name}`} className="rounded-full" />
         <div className="text-left ml-5 text-gray-500">
-          <p className="text-xl sm:text-2xl"> Por {name} </p>
+          <h3 className="text-xl sm:text-2xl"> Por {name} </h3>
         </div>
       </div>
 
