@@ -9,7 +9,7 @@ type TestimonialCardProps = {
 export function TestimonialCard({ img="https://placehold.co/56x56", name, description }: TestimonialCardProps) {
 
   return (
-    <article className="w-[20rem] sm:w-[24rem] h-[30rem] sm:h-[32rem] bg-white flex flex-col px-4 py-4 mx-4 border border-solid border-gray-400">
+    <article className="w-[20rem] sm:w-[24rem] h-[28rem] sm:h-[30rem] bg-white flex flex-col px-4 py-4 mx-4 border border-solid border-gray-400">
 
       <div className="flex justify-center items-center mb-4">
         <Image width={56} height={56} src={img} alt={`Imagem de avatar ${name}`} className="rounded-full" />
