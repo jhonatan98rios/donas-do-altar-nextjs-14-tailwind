@@ -47,12 +47,12 @@ export const content = [
     {
         name: "Caroline",
         img: "/testimonials/Caroline.png",
-        description: "Não consigo imaginar o planejamento do nosso casamento sem a Milene, do Donas do Altar. Eu e meu noivo nos identificamos com ela desde a nossa primeira conversa, é uma profissional extremamente competente e que ama o que faz, o que faz total diferença. Recomendo de olhos fechados"
+        description: "Não consigo imaginar o planejamento do nosso casamento sem a Milene, do Donas do Altar. Eu e meu noivo nos identificamos com ela desde a nossa primeira conversa, é uma profissional extremamente competente e que ama o que faz, o que faz total diferença. Recomendo de olhos fechados."
     },
     {
         name: "Bruno",
         img: "/testimonials/Bruno.png",
-        description: "Quando fui planejar meu casamento achei que daria conta de fazer tudo sozinho, impossível! Daí conheci a Milene e a chamei para um bate papo, já foi amor à primeira vista, já tinha entrevistado 4 assessoras e optei por ela pela atenção, dedicação e a vontade de querer trabalhar em meu casamento! Super indico! Ela faz o que ama e faz bem-feito! Preço super justo, tira as dúvidas sempre! Não mede esforço em querer fazer o melhor"
+        description: "Quando fui planejar meu casamento achei que daria conta de fazer tudo sozinho, impossível! Daí conheci a Milene e a chamei para um bate papo, já foi amor à primeira vista, já tinha entrevistado 4 assessoras e optei por ela pela atenção, dedicação e a vontade de querer trabalhar em meu casamento! Super indico! Ela faz o que ama e faz bem-feito! Preço super justo, tira as dúvidas sempre! Não mede esforço em querer fazer o melhor."
     },
     {
         name: "Jéssica",

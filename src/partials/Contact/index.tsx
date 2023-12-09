@@ -29,9 +29,17 @@ export function Contact() {
           </p>
 
           <div className="flex items-center">
-            <Image width={48} height={48} src="/icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
-            <Image width={48} height={48} src="/icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
-            <Image width={48} height={48} src="/icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
+            <Link href="https://www.instagram.com/donasdoaltar/?hl=en" target="_blank">
+              <Image width={48} height={48} src="/icons/instagram.png" alt="logo do Instagram" className="mx-4 h-fit" />
+            </Link>
+
+            <Link href="https://www.facebook.com/donasdoaltar/?locale=pt_BR" target="_blank">
+              <Image width={48} height={48} src="/icons/facebook.png" alt="logo do Facebook" className="mx-4 h-fit" />
+            </Link>
+
+            <Link href="https://www.youtube.com/channel/UCUpd55P0T6E2-tAD9SHeUFw" target="_blank">
+              <Image width={48} height={48} src="/icons/youtube.png" alt="logo do Youtube" className="mx-4 h-fit" />
+            </Link>
           </div>
         </div>
       </div>

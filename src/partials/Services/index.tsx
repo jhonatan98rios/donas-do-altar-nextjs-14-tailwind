@@ -16,28 +16,31 @@ export function Services() {
             image="/services/assessoria_completa.png"
             alt="Casal abraçados dançando"
             title="Assessoria Completa"
-            description="Esta é uma opção excelente para quem busca otimizar o tempo e garantir boas negociações. <br /> A Assessoria Completa é indicada para o cliente que está iniciando o planejamento e precisam de um auxílio profissional para organizar as ideias no papel e iniciar os preparativos até o dia do evento."
+            description="Esta é uma opção excelente para quem busca otimizar o tempo e garantir boas negociações. <br />
+            A Assessoria Completa é indicada para o cliente que está iniciando o planejamento e precisa de um auxílio profissional para organizar as ideias, buscar e escolher fornecedores, ter auxílio nas negociações e ter a certeza que do planejamento ao dia do evento não terá preocupações. "
           />
 
           <ServiceCard 
             image="/services/assessoria_personalizada.png"
             alt="Imagem de um casal cortando o bolo"
             title="Assessoria Personalizada"
-            description="A Assessoria Personalizada é indicada para clientes que iniciaram o planejamento do evento sem ajuda profissional e em algum momento do processo passaram a precisar de ajuda. <br /> Esse é um pacote ideal para quem busca  ótimas negociações, otimizar o  tempo e garantir a segurança no planejamento do seu evento."
+            description="Essa é uma ótima opção para quem busca excelentes negociações, otimização do tempo e garantia de segurança no planejamento do seu evento. <br />
+            A Assessoria Personalizada é indicada para clientes que iniciaram o planejamento do evento sem ajuda profissional e em algum momento do processo passaram a precisar de auxílio. "
           />
 
           <ServiceCard
             image="/services/assessoria_final.png"
             alt="Imagem de um casal do altar sorrindo"
             title="Assessoria Final"
-            description="A Assessoria Final é indicada para clientes que tem habilidade para planejar um evento sem ajuda profissional e necessitam de ajuda na coordenação no dia do evento. <br /> A Assessoria Final começa três meses antes do seu evento e nosso time vai organizar todas as contratações feitas até então."
+            description="A Assessoria Final é indicada para clientes que tem habilidade para planejar um evento sem ajuda profissional, porém vão precisar de auxílio nos últimos meses que antecedem o grande dia"
           />
 
           <ServiceCard 
             image="/services/curso_de_assessoria.png"
             alt="Imagem de uma mulher arrumando "
             title="Curso de Assessoria"
-            description="Um curso profissionalizante que foi criado com o objetivo de mudar o mercado de eventos sociais e entregar para os clientes excelência e resultado. <br /> Para quem busca ser um profissional de eventos, esse é o curso que além de te preparar para o mercado vai te capacitar para todos os desafios que é ser um empreendedor de excelência. "
+            description="Um curso profissionalizante que foi criado com o objetivo de mudar o mercado de eventos sociais e entregar para os clientes bom atendimento e resultado. <br />
+            Para quem busca ser um profissional de eventos, esse é o curso que além de te preparar para o mercado vai te capacitar para todos os desafios que é ser um empreendedor de excelência. "
           />
 
           <ServiceCard 
@@ -51,7 +54,7 @@ export function Services() {
             image="/services/eventos_sociais_e_coorporativos.png"
             alt="Uma mulher de vestido rosa, segurando um microfone e apresentando um evento enquanto lê um roteiro no celular"
             title="Eventos Sociais e Coorporativos"
-            description="Nosso time é preparado para atender qualquer tipo de evento, seja ele corporativo ou social. Garantimos segurança e qualidade desde o planejamento até o grande dia."
+            description="Nosso time é preparado para atender qualquer tipo de evento, seja ele corporativo ou social. Temos mais de 15 anos de experiência em eventos coorporativos e ao longo da nossa carreira atendemos marcas importantes."
           />
           
         </Carousel>
