@@ -19,9 +19,9 @@ export function ServiceCard({ image, alt, title, description }: ServiceCardProps
         height={230} 
       />
 
-      <h3 className="my-5 text-xl sm:text-2xl text-gray-500">
+      <h2 className="my-5 text-xl sm:text-2xl text-gray-500">
         {title}
-      </h3>
+      </h2>
 
       <p 
         className="text-sm sm:text-base text-gray-500" 

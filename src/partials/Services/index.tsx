@@ -51,9 +51,9 @@ export function Services() {
           />
 
           <ServiceCard 
-            image="/services/eventos_sociais_e_coorporativos.png"
+            image="/services/eventos_sociais_e_corporativos.png"
             alt="Uma mulher de vestido rosa, segurando um microfone e apresentando um evento enquanto lê um roteiro no celular"
-            title="Eventos Sociais e Coorporativos"
+            title="Eventos Sociais e Corporativos"
             description="Nosso time é preparado para atender qualquer tipo de evento, seja ele corporativo ou social. Temos mais de 15 anos de experiência em eventos coorporativos e ao longo da nossa carreira atendemos marcas importantes."
           />
           
