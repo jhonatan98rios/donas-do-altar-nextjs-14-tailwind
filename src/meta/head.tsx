@@ -13,7 +13,7 @@ const HeadComponent = () => (
 
     <meta 
       name="keywords" 
-      content="casamento, assessoria. cerimonial, matrimonial, eventos, festas, celebração" 
+      content="donas do altar, assessoria e cerimonial, assessoria matrimonial, assessoria completa, assessoria personalizada, assessoria final, assessoria e cerimonial, curso de assessoria, casamento, assessoria, cerimonial, matrimonial, debutantes, eventos sociais e coorporativos, eventos, festas, celebração" 
     />
     
     <link
