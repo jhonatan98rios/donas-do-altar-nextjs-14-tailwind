@@ -9,7 +9,7 @@ export const Navbar = () => {
     <navbar className={`flex flex-col items-center fixed top-0 left-0 z-10 pt-6 sm:h-52 w-full bg-white sm:relative`}>
       <div className="flex items-center justify-center mb-8">
         <div className="w-24 sm:w-48 h-10 sm:h-20">
-          <Image width={280} height={96} src="/logo.png" alt="logo da Donas do Altar" />
+          <Image width={280} height={96} src="/logo-donas-do-altar.png" alt="logo Donas do Altar" />
           <h1 className="hidden"> Donas do Altar </h1>
         </div>
       </div>

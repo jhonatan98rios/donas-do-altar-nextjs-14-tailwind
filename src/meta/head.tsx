@@ -56,6 +56,8 @@ const HeadComponent = () => (
     />
     
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
+
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml" />
   </Head>
 )
 

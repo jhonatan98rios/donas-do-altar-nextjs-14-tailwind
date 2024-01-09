@@ -3,25 +3,21 @@ export const JsonLd = () => {
     __html: `{
       "@context": "https://schema.org/",
       "@type": "Organization",
-      "name": "Nome da empresa",
-      "legalName" : "Nome da Empresa Ltda",
-      "url": "http://www.meusite.com.br", 
-      "logo": "https://cdn-icons-png.flaticon.com/128/6610/6610237.png",
+      "name": "Donas do Altar",
+      "legalName" : "Milene Crucello Nunes Alvarenga",
+      "url": "https://donasdoaltar.com.br", 
+      "logo": "https://donasdoaltar.com.br/logo.png",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "https://donasdoaltar.com.br/header/01.png",
+        "https://donasdoaltar.com.br/header/02.png",
+        "https://donasdoaltar.com.br/header/03.png",
       ],
-      "description": "Placeholder Description",
-      "sameAs": [
-        "http://www.freebase.com/m/0_h96pq",
-        "http://www.facebook.com/elitestrategies",
-      ],
+      "description": "Assessoria e Cerimonial irá desenvolver todo o programa para eternizar este dia tão especial. Para isso, contam com uma equipe de profissionais apaixonadas pelo trabalho e atendem a seus clientes de forma personalizada. Tudo que vocês sempre sonharam para este dia será transformado em realidade.",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Contato",
-        "telephone": "[+55-90000-0000]",
-        "email": "email@gmail.com"
+        "telephone": "[+55-11-97287-9578]",
+        "email": "milene@donasdoaltar.com.br"
       },
     }
   `,

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.orgschemas/sitemap/0.9">
+
+    <!-- Página principal -->
+    <url>
+        <loc>https://donasdoaltar.com.br/l</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Imagens associadas à página principal -->
+    <url>
+        <loc>https://donasdoaltar.com.br/logo-donas-do-altar.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://donasdoaltar.com.br/header/casal-por-do-sol.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://donasdoaltar.com.br/header/casal-altar.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://donasdoaltar.com.br/header/casal-evento.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://donasdoaltar.com.br/header/casal-se-beijando.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://donasdoaltar.com.br/header/casal-sorrindo.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <url>
+        <loc>https://donasdoaltar.com.br/services/assessoria_completa.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://donasdoaltar.com.br/services/assessoria_final.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://donasdoaltar.com.br/services/assessoria_personalizada.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://donasdoaltar.com.br/services/curso_de_assessoria.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://donasdoaltar.com.br/services/debutantes.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://donasdoaltar.com.br/services/eventos_sociais_e_corporativos.png</loc>
+        <lastmod>2024-01-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Adicione mais URLs de imagens conforme necessário -->
+</urlset>
