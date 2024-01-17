@@ -1,36 +1,29 @@
-import { Source } from "@/utils/baseImage"
-
 type ResponsiveImageprops = {
-  sources: Array<Source>
+  desktopUrl: string
+  mobileUrl: string
   alt: string
   title?: string
-  lazyload?: boolean
   className?: string
+  lazyload?: boolean
+  mobileWidth: number
+  mobileHeight: number 
+  desktopWidth: number
+  desktopHeight: number
 }
 
-export function ResponsiveImage({ sources, alt, title, className, lazyload = true }: ResponsiveImageprops) {
-
+const ResponsiveImage = ({ desktopUrl, mobileUrl, alt, title, className, lazyload, desktopHeight, desktopWidth, mobileHeight, mobileWidth }: ResponsiveImageprops) => {
   return (
-    <picture className={className}>
-      {sources.map((source, index) => (
-        <source
-          data-srcset={lazyload ? source.src : null}
-          srcSet={lazyload ? undefined : source.src}
-          media={source.query}
-          key={index}
-        />
-      ))}
-
-      <img
-        className=""
-        src={sources[0].src.split(',')[0]}
-        srcSet={sources[0].src}
-        alt={alt}
-        title={title}
-        loading={lazyload ? 'lazy' : 'eager'}
-      />
-
+    <picture>
+      <source media="(min-width: 640px)" srcSet={desktopUrl} title={title} width={desktopWidth} height={desktopHeight} />
+      
+      <source media="(max-width: 639px)" srcSet={mobileUrl} title={title} width={mobileWidth} height={mobileHeight} />
+      
+      <img className={className} src={desktopUrl} alt={alt} title={title} width={desktopWidth} height={desktopHeight} />
     </picture>
-  )
-}
+  );
+};
+
+export default ResponsiveImage;
+
+
 

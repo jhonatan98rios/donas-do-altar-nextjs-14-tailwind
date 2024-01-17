@@ -13,7 +13,8 @@ export function Services() {
         <Carousel>
 
           <ServiceCard 
-            image="/services/assessoria_completa.png"
+            desktopUrl="/services/assessoria_completa.png"
+            mobileUrl="/services/mobile/assessoria_completa.png"
             alt="Casal abraçados dançando"
             title="Assessoria Completa - Donas do altar"
             description="Esta é uma opção excelente para quem busca otimizar o tempo e garantir boas negociações. <br />
@@ -21,7 +22,8 @@ export function Services() {
           />
 
           <ServiceCard 
-            image="/services/assessoria_personalizada.png"
+            desktopUrl="/services/assessoria_personalizada.png"
+            mobileUrl="/services/mobile/assessoria_personalizada.png"
             alt="Imagem de um casal cortando o bolo"
             title="Assessoria Personalizada - Donas do altar"
             description="Essa é uma ótima opção para quem busca excelentes negociações, otimização do tempo e garantia de segurança no planejamento do seu evento. <br />
@@ -29,14 +31,16 @@ export function Services() {
           />
 
           <ServiceCard
-            image="/services/assessoria_final.png"
+            desktopUrl="/services/assessoria_final.png"
+            mobileUrl="/services/mobile/assessoria_final.png"
             alt="Imagem de um casal do altar sorrindo"
             title="Assessoria Final - Donas do altar"
             description="A Assessoria Final é indicada para clientes que tem habilidade para planejar um evento sem ajuda profissional, porém vão precisar de auxílio nos últimos meses que antecedem o grande dia"
           />
 
           <ServiceCard 
-            image="/services/curso_de_assessoria.png"
+            desktopUrl="/services/curso_de_assessoria.png"
+            mobileUrl="/services/mobile/curso_de_assessoria.png"
             alt="Imagem de uma mulher arrumando "
             title="Curso de Assessoria - Donas do altar"
             description="Um curso profissionalizante que foi criado com o objetivo de mudar o mercado de eventos sociais e entregar para os clientes bom atendimento e resultado. <br />
@@ -44,14 +48,16 @@ export function Services() {
           />
 
           <ServiceCard 
-            image="/services/debutantes.png"
+            desktopUrl="/services/debutantes.png"
+            mobileUrl="/services/mobile/debutantes.png"
             alt="Imagem de uma jovem de vestido longo dançando com um jovem de terno"
             title="Debutantes - Donas do altar"
             description="Temos pacotes exclusivos para festa de debutante onde vamos levantar o perfil da aniversariante e dar personalidade para uma festa tão importante como essa."
           />
 
           <ServiceCard 
-            image="/services/eventos_sociais_e_corporativos.png"
+            desktopUrl="/services/eventos_sociais_e_corporativos.png"
+            mobileUrl="/services/mobile/eventos_sociais_e_corporativos.png"
             alt="Uma mulher de vestido rosa, segurando um microfone e apresentando um evento enquanto lê um roteiro no celular"
             title="Eventos Sociais e Corporativos - Donas do altar"
             description="Nosso time é preparado para atender qualquer tipo de evento, seja ele corporativo ou social. Temos mais de 15 anos de experiência em eventos coorporativos e ao longo da nossa carreira atendemos marcas importantes."
