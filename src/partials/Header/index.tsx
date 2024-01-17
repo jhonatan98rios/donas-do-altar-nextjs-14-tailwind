@@ -7,7 +7,7 @@ const CarouselOptions: FlickityOptions = {
   prevNextButtons: true,
   initialIndex: 0,
   wrapAround: true,
-  autoPlay: false,
+  autoPlay: true,
   lazyLoad: true
 }
 
@@ -16,63 +16,63 @@ export const Header = () => {
     <header className={`w-full sm:h-auto mt-[5rem] sm:mt-0`}>
       <Carousel flickityOptions={CarouselOptions}>
         <ResponsiveImage
-          className="object-cover w-full h-[450px]"
+          className="object-cover w-full h-[450px] md:h-[690px] 2xl:h-[60vh] 2xl:w-[100vw]"
           alt="Um casal se beijando em frente a um lago" 
           title="Casal no lago com por do sol - Donas do altar" 
           desktopWidth={1920} 
-          desktopHeight={690}
+          desktopHeight={920}
           mobileWidth={620}
           mobileHeight={450}
-          desktopUrl="/header/casal-por-do-sol.png"
-          mobileUrl="/header/mobile/casal-por-do-sol.png"
+          desktopUrl="/header/casal-por-do-sol.webp"
+          mobileUrl="/header/mobile/casal-por-do-sol.webp"
         />
 
         <ResponsiveImage
-          className="object-cover object-top w-full h-[450px]"
+          className="object-cover object-top w-full h-[450px] md:h-[690px] 2xl:h-[60vh] 2xl:w-[100vw]"
           alt="Um noivo declarando seus votos à sua noiva, no altar" 
           title='Casal no altar - Donas do altar'
           desktopWidth={1920} 
-          desktopHeight={690}
+          desktopHeight={920}
           mobileWidth={620}
           mobileHeight={450}
-          desktopUrl="/header/casal-altar.png"
-          mobileUrl="/header/mobile/casal-altar.png"
+          desktopUrl="/header/casal-altar.webp"
+          mobileUrl="/header/mobile/casal-altar.webp"
         />
 
         <ResponsiveImage
-          className="object-cover w-full h-[450px]"
+          className="object-cover w-full h-[450px] md:h-[690px] 2xl:h-[60vh] 2xl:w-[100vw]"
           alt="Um casal sorrindo, de frente para a camera" 
           title='Casal comemorando - Donas do altar'
           desktopWidth={1920} 
-          desktopHeight={690}
+          desktopHeight={920}
           mobileWidth={620}
           mobileHeight={450}
-          desktopUrl="/header/casal-evento.png"
-          mobileUrl="/header/mobile/casal-evento.png"
+          desktopUrl="/header/casal-evento.webp"
+          mobileUrl="/header/mobile/casal-evento.webp"
         />
 
         <ResponsiveImage
-          className="object-cover w-full h-[450px]"
+          className="object-cover w-full h-[450px] md:h-[690px] 2xl:h-[60vh] 2xl:w-[100vw]"
           alt="Um casal sorrindo, de frente para o altar" 
           title='Casal sorrindo - Donas do altar'
           desktopWidth={1920} 
-          desktopHeight={690}
+          desktopHeight={920}
           mobileWidth={620}
           mobileHeight={450}
-          desktopUrl="/header/casal-sorrindo.png"
-          mobileUrl="/header/mobile/casal-sorrindo.png"
+          desktopUrl="/header/casal-sorrindo.webp"
+          mobileUrl="/header/mobile/casal-sorrindo.webp"
         />
         
         <ResponsiveImage
-          className="object-cover object-right-top w-full h-[450px]"
+          className="object-cover object-right-top w-full h-[450px] md:h-[690px] 2xl:h-[60vh] 2xl:w-[100vw]"
           alt="Um casal se beijando em frente a um jardim vertical" 
           title='Casal se beijando - Donas do altar'
           desktopWidth={1920} 
-          desktopHeight={690}
+          desktopHeight={920}
           mobileWidth={620}
           mobileHeight={450}
-          desktopUrl="/header/casal-se-beijando.png"
-          mobileUrl="/header/mobile/casal-se-beijando.png"
+          desktopUrl="/header/casal-se-beijando.webp"
+          mobileUrl="/header/mobile/casal-se-beijando.webp"
         />
       </Carousel>
     </header>
