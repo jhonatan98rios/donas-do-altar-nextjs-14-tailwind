@@ -17,7 +17,7 @@ const ResponsiveImage = ({ desktopUrl, mobileUrl, alt, title, className, desktop
       
       <source media="(max-width: 639px)" srcSet={mobileUrl} title={title} width={mobileWidth} height={mobileHeight} />
       
-      <img className={className} src={desktopUrl} alt={alt} title={title} width={desktopWidth} height={desktopHeight} loading="lazy" />
+      <img className={className} src={desktopUrl} alt={alt} title={title} width={desktopWidth} height={desktopHeight} />
     </picture>
   );
 };
