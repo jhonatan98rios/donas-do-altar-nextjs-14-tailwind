@@ -1,4 +1,5 @@
 import styles from './style.module.scss'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import { Header } from "@/partials/Header";
 import { Navbar } from "@/partials/Navbar";
@@ -20,7 +21,7 @@ export default function Home() {
       <PhraseBanner />
       <Testimonials />
       <Contact />
-      {/* <Social /> */}
+      <GoogleAnalytics gaId="G-ZP3RWNGZGV" />
     </main>
   )
 }

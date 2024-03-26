@@ -13,7 +13,7 @@ const CarouselOptions: FlickityOptions = {
 
 export const Header = () => {
   return (
-    <header className={`w-full sm:h-auto mt-[5rem] sm:mt-0`}>
+    <header className={`w-full sm:h-auto h-[450px] mt-[5rem] sm:mt-0`}>
       <Carousel flickityOptions={CarouselOptions}>
         <ResponsiveImage
           className="object-cover w-full h-[450px] md:h-[690px] 2xl:h-[60vh] 2xl:w-[100vw]"
